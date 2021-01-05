@@ -13,6 +13,7 @@ Build this sample project
 
 ```
 git clone git@github.com:jgbradley1/vcpkg-demo.git
+cd vcpkg-demo
 cmake -DCMAKE_TOOLCHAIN_FILE=<vcpkg_repository>/scripts/buildsystems/vcpkg.cmake -S . -B build
 cmake --build build
 ```
@@ -21,3 +22,4 @@ cmake --build build
 Several 3rd party libraries will be declared in the `vcpkg.json` manifest file to demo the varios ways a library can be added/configured for a project.
 
 TODO: add a custom library configuration example (e.g. building OpenCV with certain options disabled)
+
