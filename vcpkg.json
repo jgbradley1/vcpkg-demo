@@ -1,0 +1,9 @@
+{
+  "name": "mypackage",
+  "description": "mypackage is a package of mine",
+  "version-string": "0.1.0-dev",
+  "dependencies": [
+    "sqlite3",
+    "opencv4"
+  ]
+}
